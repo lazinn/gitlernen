@@ -1,5 +1,6 @@
-def begruessung():
-	name = input("Bitte geben Sie den Namen ein: ")
+def begruessung(name:str):
 	print("Hallo", name, "!")
-begruessung()
+
+name = input("Bitte geben Sie den Namen ein: ")
+begruessung(name)
 print("Auf Wiedersehen!")
